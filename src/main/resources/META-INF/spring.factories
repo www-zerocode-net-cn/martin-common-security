@@ -1,0 +1,9 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.java2e.martin.common.security.MartinSecurityAutoConfiguration,\
+    com.java2e.martin.common.security.userdetail.MartinUserDetailsService,\
+    com.java2e.martin.common.security.config.JacksonConfig,\
+    com.java2e.martin.common.security.config.HttpSecurityDealer,\
+    com.java2e.martin.common.security.exception.GlobalExceptionHandler,\
+    com.java2e.martin.common.security.config.MybatisPlusConfiguration,\
+    com.java2e.martin.common.security.component.MartinOauthResponseExceptionTranslator
